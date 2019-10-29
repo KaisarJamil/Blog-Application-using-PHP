@@ -1,7 +1,7 @@
 <?php
 
 	include 'config/config.php';
-	require('config/db.php');
+	include 'config/db.php';
 	//create query
 	$query='SELECT * FROM posts ORDER BY created_at DESC';
 
