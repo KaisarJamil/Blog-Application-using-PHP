@@ -1,7 +1,7 @@
 <?php
 
-	require('config/config.php');
-	require('config/db.php');
+	include 'config/config.php';
+	include 'config/db.php';
 
 	if (isset($_POST['submit'])) {
 		//get form data
